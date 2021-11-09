@@ -1,0 +1,23 @@
+{
+  "name": "tree-sitter-astro",
+  "version": "0.0.1",
+  "description": "Astro grammar for tree-sitter",
+  "author": "Yash Gupta",
+  "main": "bindings/node",
+  "scripts": {
+    "gen": "tree-sitter generate",
+    "test": "tree-sitter test"
+  },
+  "license": "MIT",
+  "keywords": [
+    "parser",
+    "tree-sitter",
+    "astro"
+  ],
+  "dependencies": {
+    "nan": "^2.15.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.0"
+  }
+}
